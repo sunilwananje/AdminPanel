@@ -1,0 +1,24 @@
+{
+    "name": "saw/admin_panel",
+    "description": "This demo package will do some admin panel integration",
+    "authors": [
+        {
+            "name": "Sunil Wananje",
+            "email": "stamloore@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SAW\\AdminPanel\\AdminPanelServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SAW\\AdminPanel\\": "src/"
+        }
+    }
+}
