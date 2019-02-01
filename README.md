@@ -2,6 +2,8 @@
 
 #Installation
 
+composer require saw/admin_panel
+
 Laravel 5.x
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
