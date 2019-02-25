@@ -1,6 +1,12 @@
-# AdminPanel
+## LaravelAdminPanel
 
-#Installation
+A simple admin panel implementation for Laravel.
+
+## Installation
+
+Install the package through [Composer](http://getcomposer.org/). 
+
+Run the Composer require command from the Terminal:
 
     composer require saw/admin_panel
 
@@ -12,7 +18,5 @@ After updating composer, add the ServiceProvider to the providers array in confi
 
 First publish the views and assets files so you can modify it to your needs:
 
-    php artisan vendor:publish 
-    
-Visit http://127.0.0.1:8000/admin
+    php artisan vendor:publish
   
